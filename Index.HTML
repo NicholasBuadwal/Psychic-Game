@@ -1,14 +1,30 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
+    <h1>The Psychic Game</h1>
+    
+    <div id="game">
+        <p>Guess what letter im thinking of</p>
+        <div id="wins">Wins:0 </div>
+        <div id="losses">Losses:0</div>
+        <div id="guesses">Guesses:0</div>
+        <div id="guessChoices">Letters Guessed:</div>
+    </div>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>The Psychic Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" type="text/css" media="screen" href="./assets/css/style.css" />
+    <script src="./assets/javascript/game.js"></script>
+   
+    <document.onkeypress=function(event) {
+        var userGuess = event.key;>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>

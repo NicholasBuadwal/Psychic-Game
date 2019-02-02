@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2">
+      <!-- Content -->
+    </div>
+    <div class="col-lg-2">
+      <!-- Content -->
+    </div>
+    <div class="col-lg-8">
+      <!-- Content -->
+    </div>
+  </div>
+</div>
+<img class="rounded-circle" src="/images/pathToYourImage.png" alt="Circle image">
+
